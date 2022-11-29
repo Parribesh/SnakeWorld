@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel = "stylesheet" href="styles.css"></link>
+    <script type = "module" src="World.js" defer></script>
+    <script type = "module" src="MyObjects.js" defer></script>
+    <script type = "module" src="CheckKey/CheckKey.js" defer></script>
+    <script  src="DataWindow.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="mainWindow">
+      <div id="myWorld"></div>
+      <div id="dataDiv" class="data-div">
+        <div id="data-header" class="data-header">
+            <span> Progress</span>
+        </div>
+        <div id="data-body" class ="data-body">
+          <div class = "score">
+            Score: <span id ="score"></span>
+          </div>
+            <div class = "loc-x">
+                LocationX: <span id="locationX"></span>
+            </div>
+            <div class = "loc-y">
+                LocationY: <span id="locationY"></span>
+            </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

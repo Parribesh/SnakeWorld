@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(228, 209, 209);
+}
+
+.data-header {
+  border: 1px solid grey;
+  padding: 5px;
+  text-align: center;
+}
+
+.data-body {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.outerDiv {
+  width: 25px;
+  height: 25px;
+  border: 0px solid grey;
+}
+
+.innerDiv {
+  color: black;
+  width: 90%;
+  height: 90%;
+  /* border: .3px solid rgb(47, 43, 43); */
+}
+
+.data-div {
+  width: 300px;
+  height: 300px;
+  background-color: #90b6d985;
+  margin: 10px;
+}
+
+.gameover {
+  top: 150px;
+  right: 150px;
+  font-size: 40px;
+}
